@@ -1,0 +1,75 @@
+body {
+    background: url("img/Moon21.jpg") no-repeat center center fixed;
+    font-family: Futura, sans-serif;
+    font-size: 1.2em;
+    color: #0A2463;
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#currentlyPlaying, #currentSong {
+    color: #000;
+    font-weight: bolder;
+    font-size: 1em;
+}
+
+h1 {
+    background: #F9F9EF;
+    color: #0A2463;
+    border-radius: 10px;
+    opacity: 0.88;
+}
+
+#songList {
+    background: #F9F9EF;
+    border-radius: 10px;
+    text-align: left;
+    opacity: 0.88;
+}
+
+li {
+    padding: 10px;
+}
+
+li:hover {
+    cursor: pointer;
+    color: #FED766;
+}
+
+#svg:hover {
+    cursor: pointer;
+    color: #FED766;
+}
+
+a {
+    cursor: pointer;
+    color: #FED766;
+}
+
+#controls {
+    background: #F9F9EF;
+    border-radius: 10px;
+    padding: 1.5em;
+    opacity: 0.88;
+}
+
+svg {
+    color: #0A2463;
+}
+
+#moonieMusic {
+    text-align: left;
+    font-size: 0.8em;
+    background: #F9F9EF;
+    padding: 1.5em;
+    border-radius: 10px;
+    opacity: 0.88;
+}
+
+progress {
+    width: 80%;
+    margin: 10px;
+    color: #FED766;
+}
